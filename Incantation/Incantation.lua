@@ -39,6 +39,8 @@ SMODS.current_mod.config_tab = function()
     }}
 end
 
+SMODS.current_mod.togafork = true
+
 local function tablecontains(haystack, needle)
 	for k, v in pairs(haystack) do
 		if v == needle then
